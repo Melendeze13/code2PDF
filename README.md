@@ -6,7 +6,9 @@
 You will need the terminal commands:
 
 "enscript"
+
 "ps2pdf"
+
 "pdftk"
 
 This tool makes your code into post script then it makes it into a pdf.
