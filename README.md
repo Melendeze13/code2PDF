@@ -5,11 +5,11 @@
 
 You will need the terminal commands:
 
-"enscript"
+"enscript" "$ brew install enscript"
 
-"ps2pdf"
+"ps2pdf" "$ brew install ghostscript"
 
-"pdftk"
+"pdftk" [Download PDFtk](https://www.pdflabs.com/tools/pdftk-server/)
 
 This tool makes your code into post script then it makes it into a pdf.
 
