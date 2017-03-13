@@ -15,7 +15,11 @@ This tool makes your code into post script then it makes it into a pdf.
 
 make sure you use "$ chmod +x code2PDF.sh" to make it executable.
 
-To use: $ ./code2PDF file1 file2 file3 -o MergedName
+
+
+To use: $ ./code2PDF file1 file2 file3 ... -o MergedName
+
+
 
 
 Created by Elmer Melendez
