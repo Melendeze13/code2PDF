@@ -4,6 +4,7 @@
 
 #TODO add invalid syntax if user does not give -o flag
 #TODO add check to make sure there is given named file
+#TODO find way to allow duplicates such as .h files
 
 
 clear
