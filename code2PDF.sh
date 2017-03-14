@@ -27,9 +27,11 @@ if [ "$fileName" = "-o" ]; then
 	n=$#
 	offset=$((n-2))
 	outputName=${!n}
-	pass=${args[*]:0:$offset}
-	pdftk ${pass//.c} output "${outputName}.pdf"
-	rm ${pass//.c}
+	copy=${args[*]%.*}
+	arr=($copy)
+	pass=${arr[*]:0:$offset}
+	pdftk ${pass//.*} output "${outputName}.pdf"
+	rm ${pass//.*}
 
 	exit 0
 else
